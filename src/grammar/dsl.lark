@@ -1,0 +1,6 @@
+%import common.WS_INLINE
+%import common.CNAME -> IDENTIFIER
+%ignore WS_INLINE
+
+start: statement+
+statement: IDENTIFIER ":" IDENTIFIER
